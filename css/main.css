@@ -28,6 +28,7 @@ button {
     background-color: #ff6f61;
     border: none;
     padding: 15px 30px;
+    font-family: inherit;
     font-size: 1.2em;
     font-weight: bold;
     border-radius: 50px;
