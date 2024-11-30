@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الطـيخـا 😂❤</title>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
+    <title>الطـيخـا 😂❤</title>
 </head>
 <body dir="rtl">
-    <h1>الولا طيخــا اللي بحبه 😂❤</h1>
+    <h1>الولا طيخــا اللي بحبه <span class="emoji">😂❤</span></h1>
     <div class="game-container">
-        <div id="messageContainer" class="level-message">نبدأ اللعبه ولا هتسويحنا؟ 🙄😂❤</div>
+        <div id="messageContainer" class="level-message">نبدأ اللعبه ولا هتسويحنا؟ <span class="emoji">🙄😂❤</span></div>
         <div id="buttonsContainer"></div>
-        <button id="game-btn" onclick="startGame()">ابدأ ياسيدي 🙄</button>
+        <button id="game-btn" onclick="startGame()">ابدأ ياسيدي <span class="emoji">🙄</span></button>
     </div>
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            twemoji.parse(document.body, {
+                folder: "svg",
+                ext: ".svg"
+            });
+        });
+    </script>
+    
 </body>
 </html>
