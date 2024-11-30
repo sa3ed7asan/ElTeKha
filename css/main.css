@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background: radial-gradient(circle, #ff9a9e, #fad0c4);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px;
+    color: #ff6f61;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+button {
+    background-color: #ff6f61;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff6f61;
+    transform: scale(1.1);
+}
+
+.level-message {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+}
